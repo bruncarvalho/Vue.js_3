@@ -1,10 +1,11 @@
 <template>
 
 <div>
-      <div v-for="obj in todos"
+      <div v-for="(obj, index) in todos"
       v-bind:key="obj.id"
+      class="todos-items"
       >
-        {{obj.title}}
+        {{index}} - {{obj.title}}
 </div>
     
 </div>
@@ -56,6 +57,12 @@
 </script>
 
 <style>
+  .todos-items{
+    background: black;
+    margin: 0 0 5px 0;
+    padding: 3px, 6px;
+    color: #fff
+  }
  .header{
   background: #bbb;
   color: black;
