@@ -1,9 +1,20 @@
 <template>
 
 <div>
+      
+  <h1 :class="{'title': true, 'title_home': isHome}">
+    Curso Vue.js 3
+  </h1>
 
+  <p :class="pClass">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem recusandae consequatur error, qui repellendus doloremque amet corrupti obcaecati esse modi saepe vel perspiciatis iusto eligendi voluptas ab nam assumenda earum!
+  </p>
+
+  <p :style="styleClass">
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum corporis inventore autem dicta nesciunt, dolor delectus voluptates quo, assumenda sint ex reiciendis quod provident dolorem, voluptas dolore molestiae temporibus. Officiis!
+  </p>
       <div v-for="(obj, index) in todos"
-      v-bind:key="obj.id"
+      :key="obj.id"
       class="todos-items"
       >
       <img 
@@ -21,7 +32,10 @@
    name: 'App',
    data(){
     return {
-      imgSrc: 'https://via.placeholder.com/150',
+      classVar: 'title',
+      isHome: true,
+      pClass: ['text', 'text_home' ], 
+      styleClass: {'color': 'green', 'background': 'black'},
       todos: 
         [
          
@@ -66,6 +80,21 @@
 </script>
 
 <style>
+  .title{
+    font-size: 20px;
+    color: blue
+  }
+  .title_home{
+    font-size: 40px;
+    color: pink
+  }
+  .text{
+    color: rgb(8, 109, 95)
+  }
+  .text_home{
+    color: brown
+  }
+
   .todos-items{
     background: black;
     margin: 0 0 5px 0;
