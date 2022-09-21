@@ -8,20 +8,24 @@
     <vBind
     
     />
+
+    <vModel/>
   </div>
 
 </template>
 
 <script>
 
-import TheHeader from './components/TheHeader.vue';
-import vBind from './components/vBind.vue'
+// import TheHeader from './components/TheHeader.vue';
+// import vBind from './components/vBind.vue';
+import vModel from './components/vModel.vue'
 
 export default {
   name: 'App',
   components: {
-      TheHeader,
-      vBind
+      // TheHeader,
+      // vBind,
+      vModel
   }
 }
 

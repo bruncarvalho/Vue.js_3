@@ -3,7 +3,7 @@
 <div>
       
   <h1 :class="{'title': true, 'title_home': isHome}">
-    Curso Vue.js 3
+    Curso Vue.js 3.0
   </h1>
 
   <p :class="pClass">
