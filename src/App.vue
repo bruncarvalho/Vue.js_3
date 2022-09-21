@@ -9,6 +9,8 @@
 
     <Events/>
 
+    <computed/>
+
   </div>
 
 </template>
@@ -18,7 +20,8 @@
 // import TheHeader from './components/TheHeader.vue';
 // import vBind from './components/vBind.vue';
 // import vModel from './components/vModel.vue';
-import Events from './components/Events.vue'
+// import Events from './components/Events.vue';
+import computed from './components/computed.vue'
 
 export default {
   name: 'App',
@@ -26,7 +29,8 @@ export default {
       // TheHeader,
       // vBind,
       // vModel,
-      Events
+      // Events,
+      computed
   }
 }
 
