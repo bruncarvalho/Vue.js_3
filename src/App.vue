@@ -1,15 +1,16 @@
 <template>
   
   <div id="app">
-    <TheHeader
-    
-    />
+    <TheHeader/>
 
-    <vBind
-    
-    />
+    <vBind/>
 
     <vModel/>
+
+    <Events/>
+
+    <computed/>
+
   </div>
 
 </template>
@@ -18,14 +19,18 @@
 
 // import TheHeader from './components/TheHeader.vue';
 // import vBind from './components/vBind.vue';
-import vModel from './components/vModel.vue'
+// import vModel from './components/vModel.vue';
+// import Events from './components/Events.vue';
+import computed from './components/computed.vue'
 
 export default {
   name: 'App',
   components: {
       // TheHeader,
       // vBind,
-      vModel
+      // vModel,
+      // Events,
+      computed
   }
 }
 

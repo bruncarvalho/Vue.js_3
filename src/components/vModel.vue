@@ -22,7 +22,7 @@
     <!--Outro exemplo com select -->
     <label>Sports</label> <br>
     <select v-model="sports">
-    <option value="">Escolha</option>
+    <option disabled value="">Escolha</option>
     <option value="futebol">Futebol</option>
     <option value="skate">Skate</option>
     <option value="Tenis">Tenis</option>
