@@ -5,6 +5,8 @@
 
     <TheHeader/>
 
+    <componente_slot/>
+
    <!--  <vBind/>
 
     <vModel/>
@@ -15,7 +17,7 @@
 
     <watch/> -->
 
-    <lifeCycle/>
+    <!-- <lifeCycle/> -->
 
 
   </div>
@@ -31,7 +33,8 @@ import TheHeader from './components/TheHeader.vue';
 // import Events from './components/Events.vue';
 // import computed from './components/computed.vue';
 // import watch from './components/watch.vue';
-import lifeCycle from './components/lifeCycle.vue'
+// import lifeCycle from './components/lifeCycle.vue';
+import componente_slot from './components/componente_slot.vue'
 
 export default {
   name: 'App',
@@ -43,7 +46,8 @@ export default {
       // Events,
       // computed,
       // watch,
-      lifeCycle
+      // lifeCycle,
+      componente_slot
   }
 }
 
