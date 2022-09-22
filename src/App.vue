@@ -1,9 +1,11 @@
 <template>
   
   <div id="app">
-    <!-- <TheHeader/>
+    <!-- <vif_vfor/> -->
 
-    <vBind/>
+    <TheHeader/>
+
+   <!--  <vBind/>
 
     <vModel/>
 
@@ -13,7 +15,7 @@
 
     <watch/> -->
 
-    <lifeCicle/>
+    <lifeCycle/>
 
 
   </div>
@@ -22,24 +24,26 @@
 
 <script>
 
-// import TheHeader from './components/TheHeader.vue';
+import TheHeader from './components/TheHeader.vue';
+// import vif_vfor from './components/vif_vfor.vue';
 // import vBind from './components/vBind.vue';
 // import vModel from './components/vModel.vue';
 // import Events from './components/Events.vue';
 // import computed from './components/computed.vue';
 // import watch from './components/watch.vue';
-import lifeCicle from './components/lifeCicle.vue'
+import lifeCycle from './components/lifeCycle.vue'
 
 export default {
   name: 'App',
   components: {
-      // TheHeader,
+      TheHeader,
+      // vif_vfor,
       // vBind,
       // vModel,
       // Events,
       // computed,
       // watch,
-      lifeCicle
+      lifeCycle
   }
 }
 
