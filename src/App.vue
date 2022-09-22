@@ -1,7 +1,7 @@
 <template>
   
   <div id="app">
-    <TheHeader/>
+    <!-- <TheHeader/>
 
     <vBind/>
 
@@ -10,6 +10,11 @@
     <Events/>
 
     <computed/>
+
+    <watch/> -->
+
+    <lifeCicle/>
+
 
   </div>
 
@@ -21,7 +26,9 @@
 // import vBind from './components/vBind.vue';
 // import vModel from './components/vModel.vue';
 // import Events from './components/Events.vue';
-import computed from './components/computed.vue'
+// import computed from './components/computed.vue';
+// import watch from './components/watch.vue';
+import lifeCicle from './components/lifeCicle.vue'
 
 export default {
   name: 'App',
@@ -30,7 +37,9 @@ export default {
       // vBind,
       // vModel,
       // Events,
-      computed
+      // computed,
+      // watch,
+      lifeCicle
   }
 }
 
