@@ -1,13 +1,12 @@
 <template>
   
   <div id="app">
-    <!-- <vif_vfor/> -->
+   
+    <!-- <vif_vfor/>
 
-    <!-- <TheHeader/> -->
+    <TheHeader/>
   
-    <componente_slot/>
-
-   <!--  <vBind/>
+    <vBind/>
 
     <vModel/>
 
@@ -15,9 +14,11 @@
 
     <computed/>
 
-    <watch/> -->
+    <watch/> 
 
-    <!-- <lifeCycle/> -->
+   <lifeCycle/> -->
+      
+   <BaseCard/>
 
 
   </div>
@@ -34,7 +35,8 @@
 // import computed from './components/computed.vue';
 // import watch from './components/watch.vue';
 // import lifeCycle from './components/lifeCycle.vue';
-import componente_slot from './components/componente_slot.vue'
+import BaseCard from './components/BaseCard.vue';
+
 
 export default {
   name: 'App',
@@ -47,7 +49,8 @@ export default {
       // computed,
       // watch,
       // lifeCycle,
-      componente_slot
+      BaseCard
+      
   }
 }
 
